@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Shift
-//
-//  Created by Данил Пестов on 13.07.2026.
-//
 
 import SwiftUI
 import SwiftData

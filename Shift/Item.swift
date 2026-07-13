@@ -1,9 +1,3 @@
-//
-//  Item.swift
-//  Shift
-//
-//  Created by Данил Пестов on 13.07.2026.
-//
 
 import Foundation
 import SwiftData
