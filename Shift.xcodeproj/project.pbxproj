@@ -15,6 +15,9 @@
 		8A61BE4B300545E20038A472 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE4A300545E20038A472 /* RootView.swift */; };
 		8A61BE54300547110038A472 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE51300547110038A472 /* AppColors.swift */; };
 		8A61BE55300547110038A472 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE52300547110038A472 /* Typography.swift */; };
+		8A61BE57300549A20038A472 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE56300549A20038A472 /* Spacing.swift */; };
+		8A61BE5930054A0E0038A472 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE5830054A0E0038A472 /* Radius.swift */; };
+		8A61BE5B30054A160038A472 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE5A30054A160038A472 /* Shadows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		8A61BE4A300545E20038A472 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8A61BE51300547110038A472 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		8A61BE52300547110038A472 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		8A61BE56300549A20038A472 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		8A61BE5830054A0E0038A472 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		8A61BE5A30054A160038A472 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -189,6 +195,9 @@
 			children = (
 				8A61BE51300547110038A472 /* AppColors.swift */,
 				8A61BE52300547110038A472 /* Typography.swift */,
+				8A61BE56300549A20038A472 /* Spacing.swift */,
+				8A61BE5830054A0E0038A472 /* Radius.swift */,
+				8A61BE5A30054A160038A472 /* Shadows.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -336,10 +345,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A61BE3F300544670038A472 /* ContentView.swift in Sources */,
+				8A61BE5B30054A160038A472 /* Shadows.swift in Sources */,
 				8A61BE54300547110038A472 /* AppColors.swift in Sources */,
+				8A61BE5930054A0E0038A472 /* Radius.swift in Sources */,
 				8A61BE55300547110038A472 /* Typography.swift in Sources */,
 				8A61BE49300545C30038A472 /* DashboardView.swift in Sources */,
 				8A61BE40300544670038A472 /* Item.swift in Sources */,
+				8A61BE57300549A20038A472 /* Spacing.swift in Sources */,
 				8A61BE41300544670038A472 /* ShiftApp.swift in Sources */,
 				8A61BE4B300545E20038A472 /* RootView.swift in Sources */,
 			);
