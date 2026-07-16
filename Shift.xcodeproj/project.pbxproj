@@ -18,6 +18,13 @@
 		8A61BE57300549A20038A472 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE56300549A20038A472 /* Spacing.swift */; };
 		8A61BE5930054A0E0038A472 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE5830054A0E0038A472 /* Radius.swift */; };
 		8A61BE5B30054A160038A472 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE5A30054A160038A472 /* Shadows.swift */; };
+		8A61BE6B30054B820038A472 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE6A30054B820038A472 /* AppCard.swift */; };
+		8A61BE7530054D590038A472 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE7430054D590038A472 /* DashboardViewModel.swift */; };
+		8A61BE833006B0010038A472 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BE813006B0010038A472 /* Color+Hex.swift */; };
+		8A61BEB8300942A20038A472 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEB7300942A20038A472 /* FeaturesView.swift */; };
+		8A61BEBA300942AE0038A472 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEB9300942AE0038A472 /* CalendarView.swift */; };
+		8A61BEBC300942B50038A472 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEBB300942B50038A472 /* StatisticsView.swift */; };
+		8A61BEBE300942BC0038A472 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEBD300942BC0038A472 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		8A61BE56300549A20038A472 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		8A61BE5830054A0E0038A472 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
 		8A61BE5A30054A160038A472 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		8A61BE6A30054B820038A472 /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		8A61BE7430054D590038A472 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		8A61BE813006B0010038A472 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		8A61BEB7300942A20038A472 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		8A61BEB9300942AE0038A472 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8A61BEBB300942B50038A472 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		8A61BEBD300942BC0038A472 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -121,16 +135,10 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		8A61BE34300544670038A472 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		8A61BE35300544670038A472 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8A61BE6930054B770038A472 /* Components */,
 				8A61BE53300547110038A472 /* DesignSystem */,
 			);
 			path = Core;
@@ -169,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				8A61BE33300544670038A472 /* App */,
-				8A61BE34300544670038A472 /* Components */,
 				8A61BE35300544670038A472 /* Core */,
 				8A61BE36300544670038A472 /* Features */,
 				8A61BE37300544670038A472 /* Models */,
@@ -185,7 +192,10 @@
 		8A61BE44300545850038A472 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				8A61BE48300545C30038A472 /* DashboardView.swift */,
+				8A61BE7330054D440038A472 /* Components */,
+				8A61BE7030054D440038A472 /* Model */,
+				8A61BE7130054D440038A472 /* ViewModel */,
+				8A61BE7230054D440038A472 /* View */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -193,6 +203,7 @@
 		8A61BE53300547110038A472 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				8A61BE823006B0010038A472 /* Extensions */,
 				8A61BE51300547110038A472 /* AppColors.swift */,
 				8A61BE52300547110038A472 /* Typography.swift */,
 				8A61BE56300549A20038A472 /* Spacing.swift */,
@@ -200,6 +211,56 @@
 				8A61BE5A30054A160038A472 /* Shadows.swift */,
 			);
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8A61BE6930054B770038A472 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A61BE6A30054B820038A472 /* AppCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A61BE7030054D440038A472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A61BE7130054D440038A472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A61BE7430054D590038A472 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8A61BE7230054D440038A472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A61BE48300545C30038A472 /* DashboardView.swift */,
+				8A61BEB7300942A20038A472 /* FeaturesView.swift */,
+				8A61BEB9300942AE0038A472 /* CalendarView.swift */,
+				8A61BEBB300942B50038A472 /* StatisticsView.swift */,
+				8A61BEBD300942BC0038A472 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A61BE7330054D440038A472 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A61BE823006B0010038A472 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A61BE813006B0010038A472 /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,16 +405,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A61BE833006B0010038A472 /* Color+Hex.swift in Sources */,
 				8A61BE3F300544670038A472 /* ContentView.swift in Sources */,
 				8A61BE5B30054A160038A472 /* Shadows.swift in Sources */,
 				8A61BE54300547110038A472 /* AppColors.swift in Sources */,
+				8A61BE7530054D590038A472 /* DashboardViewModel.swift in Sources */,
+				8A61BEBC300942B50038A472 /* StatisticsView.swift in Sources */,
+				8A61BEBA300942AE0038A472 /* CalendarView.swift in Sources */,
 				8A61BE5930054A0E0038A472 /* Radius.swift in Sources */,
 				8A61BE55300547110038A472 /* Typography.swift in Sources */,
+				8A61BEBE300942BC0038A472 /* ProfileView.swift in Sources */,
 				8A61BE49300545C30038A472 /* DashboardView.swift in Sources */,
 				8A61BE40300544670038A472 /* Item.swift in Sources */,
 				8A61BE57300549A20038A472 /* Spacing.swift in Sources */,
 				8A61BE41300544670038A472 /* ShiftApp.swift in Sources */,
+				8A61BE6B30054B820038A472 /* AppCard.swift in Sources */,
 				8A61BE4B300545E20038A472 /* RootView.swift in Sources */,
+				8A61BEB8300942A20038A472 /* FeaturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,8 +579,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -528,6 +598,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Shift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -547,8 +618,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -564,6 +637,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Shift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

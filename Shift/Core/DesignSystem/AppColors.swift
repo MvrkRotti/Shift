@@ -1,40 +1,35 @@
-
 import SwiftUI
 
 enum AppColors {
 
     // MARK: Background
 
-    static let background = Color(
-        UIColor.systemGroupedBackground
-    )
-
-    static let card = Color(
-        UIColor.secondarySystemGroupedBackground
-    )
-
+    static let background = Color(hex: "#F6F7F9")
+    static let surface = Color(hex: "#FFFFFF")
+    static let surfaceSecondary = Color(hex: "#F2F3F5")
 
     // MARK: Text
 
-    static let textPrimary = Color.primary
+    static let textPrimary = Color(hex: "#111111")
+    static let textSecondary = Color(hex: "#7A7A7A")
 
-    static let textSecondary = Color.secondary
+    // MARK: Brand
 
+    static let primaryGreen = Color(hex: "#37B34A")
+    static let secondaryGreen = Color(hex: "#7ED957")
 
-    // MARK: Accent
+    // MARK: Status
 
-    static let accent = Color.green
+    static let success = Color(hex: "#37B34A")
+    static let warning = Color(hex: "#FFB800")
+    static let danger = Color(hex: "#F44336")
 
+    // MARK: Card
 
-    // MARK: Health Metrics
+    static let cardBackground = Color(hex: "#FFFFFF")
 
-    static let activity = Color.green
+    // MARK: Border
 
-    static let sleep = Color.blue
+    static let border = Color(hex: "#ECECEC")
 
-    static let nutrition = Color.orange
-
-    static let water = Color.cyan
-
-    static let warning = Color.yellow
 }
