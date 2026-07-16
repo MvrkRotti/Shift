@@ -8,7 +8,7 @@ struct DashboardView: View {
             VStack(spacing: 24) {
                 GreetingHeader()
                 
-                //TodaySavingsCard()
+                TodaySavingsCard()
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)
