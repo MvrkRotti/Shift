@@ -25,6 +25,9 @@
 		8A61BEBA300942AE0038A472 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEB9300942AE0038A472 /* CalendarView.swift */; };
 		8A61BEBC300942B50038A472 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEBB300942B50038A472 /* StatisticsView.swift */; };
 		8A61BEBE300942BC0038A472 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BEBD300942BC0038A472 /* ProfileView.swift */; };
+		8A61BECC300944C80038A472 /* GreetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECB300944C80038A472 /* GreetingHeader.swift */; };
+		8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECD300944E90038A472 /* NotificationButton.swift */; };
+		8A61BED030094D2D0038A472 /* TodaySavingsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		8A61BEB9300942AE0038A472 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		8A61BEBB300942B50038A472 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		8A61BEBD300942BC0038A472 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8A61BECB300944C80038A472 /* GreetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHeader.swift; sourceTree = "<group>"; };
+		8A61BECD300944E90038A472 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
+		8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySavingsCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -148,6 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				8A61BE44300545850038A472 /* Dashboard */,
+				8A61BEB7300942A20038A472 /* FeaturesView.swift */,
+				8A61BEB9300942AE0038A472 /* CalendarView.swift */,
+				8A61BEBB300942B50038A472 /* StatisticsView.swift */,
+				8A61BEBD300942BC0038A472 /* ProfileView.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -240,10 +250,6 @@
 			isa = PBXGroup;
 			children = (
 				8A61BE48300545C30038A472 /* DashboardView.swift */,
-				8A61BEB7300942A20038A472 /* FeaturesView.swift */,
-				8A61BEB9300942AE0038A472 /* CalendarView.swift */,
-				8A61BEBB300942B50038A472 /* StatisticsView.swift */,
-				8A61BEBD300942BC0038A472 /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +257,9 @@
 		8A61BE7330054D440038A472 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8A61BECB300944C80038A472 /* GreetingHeader.swift */,
+				8A61BECD300944E90038A472 /* NotificationButton.swift */,
+				8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -405,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */,
 				8A61BE833006B0010038A472 /* Color+Hex.swift in Sources */,
 				8A61BE3F300544670038A472 /* ContentView.swift in Sources */,
 				8A61BE5B30054A160038A472 /* Shadows.swift in Sources */,
@@ -418,10 +428,12 @@
 				8A61BE49300545C30038A472 /* DashboardView.swift in Sources */,
 				8A61BE40300544670038A472 /* Item.swift in Sources */,
 				8A61BE57300549A20038A472 /* Spacing.swift in Sources */,
+				8A61BECC300944C80038A472 /* GreetingHeader.swift in Sources */,
 				8A61BE41300544670038A472 /* ShiftApp.swift in Sources */,
 				8A61BE6B30054B820038A472 /* AppCard.swift in Sources */,
 				8A61BE4B300545E20038A472 /* RootView.swift in Sources */,
 				8A61BEB8300942A20038A472 /* FeaturesView.swift in Sources */,
+				8A61BED030094D2D0038A472 /* TodaySavingsCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

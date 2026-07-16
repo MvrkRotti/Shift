@@ -6,19 +6,9 @@ struct DashboardView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(spacing: 24) {
-                Text("Header")
+                GreetingHeader()
                 
-                AppCard {
-                    Text("Today Savings")
-                }
-                
-                AppCard {
-                    Text("Goal")
-                }
-                
-                AppCard {
-                    Text("Statistics")
-                }
+                //TodaySavingsCard()
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)
