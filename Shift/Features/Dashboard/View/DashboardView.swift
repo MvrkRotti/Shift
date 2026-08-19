@@ -9,6 +9,8 @@ struct DashboardView: View {
                 GreetingHeader()
                 
                 TodaySavingsCard()
+                
+                PersonalTargetCard(progress: 0.2)
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)

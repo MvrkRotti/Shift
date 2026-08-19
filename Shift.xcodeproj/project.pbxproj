@@ -28,6 +28,7 @@
 		8A61BECC300944C80038A472 /* GreetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECB300944C80038A472 /* GreetingHeader.swift */; };
 		8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECD300944E90038A472 /* NotificationButton.swift */; };
 		8A61BED030094D2D0038A472 /* TodaySavingsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */; };
+		8AEDC4AB3035B018009ABD15 /* PersonalTargetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		8A61BECB300944C80038A472 /* GreetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHeader.swift; sourceTree = "<group>"; };
 		8A61BECD300944E90038A472 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
 		8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySavingsCard.swift; sourceTree = "<group>"; };
+		8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTargetCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -260,6 +262,7 @@
 				8A61BECB300944C80038A472 /* GreetingHeader.swift */,
 				8A61BECD300944E90038A472 /* NotificationButton.swift */,
 				8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */,
+				8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */,
 				8A61BE833006B0010038A472 /* Color+Hex.swift in Sources */,
 				8A61BE3F300544670038A472 /* ContentView.swift in Sources */,
+				8AEDC4AB3035B018009ABD15 /* PersonalTargetCard.swift in Sources */,
 				8A61BE5B30054A160038A472 /* Shadows.swift in Sources */,
 				8A61BE54300547110038A472 /* AppColors.swift in Sources */,
 				8A61BE7530054D590038A472 /* DashboardViewModel.swift in Sources */,
