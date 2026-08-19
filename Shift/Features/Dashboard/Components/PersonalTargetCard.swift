@@ -10,14 +10,15 @@ struct PersonalTargetCard: View {
             
             targetImage
             
-            VStack(alignment: .trailing, spacing: 20) {
-                
-            }
-            .frame(width: 200)
+            targetDetails
+//            VStack(alignment: .leading, spacing: 10) {
+//                targetDetails
+//
+//            }
         }
         .padding(24)
-        .frame(maxWidth: .infinity)
-        .background(Color.white)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(AppColors.cardBackground)
         .clipShape(
             RoundedRectangle(
                 cornerRadius: Radius.large,
@@ -48,7 +49,7 @@ private extension PersonalTargetCard {
                 Circle()
                     .trim(from: 0, to: progress)
                     .stroke(
-                        Color.green,
+                        AppColors.success,
                         style: StrokeStyle(
                             lineWidth: 5,
                             lineCap: .round
@@ -56,14 +57,40 @@ private extension PersonalTargetCard {
                     )
                     .rotationEffect(.degrees(-90))
                 
-                Text("\(Int(progress * 100)) %")
-                    .font(.system(size: 10, weight: .semibold))
-                    .foregroundStyle(.green)
+                Text("\(Int(progress * 100))%")
+                    .font(Typography.percent)
+                    .foregroundStyle(AppColors.success)
             }
             .frame(width: 42, height: 42)
-            .background(Color.white)
+            .background(AppColors.cardBackground)
             .clipShape(Circle())
             .offset(x: 12, y: 12)
+        }
+    }
+}
+
+private extension PersonalTargetCard {
+    var targetDetails: some View {
+        VStack(alignment: .leading, spacing: 5) {
+            Text("Цель")
+                .font(Typography.caption)
+                .foregroundStyle(.gray)
+            
+            Text("Поездка в отпуск") // personal target name
+                .font(Typography.headline)
+            
+            Text("50 000") // saved amount
+                .font(Typography.title)
+            
+            Text("из 100 000") // total amount
+                .font(Typography.caption)
+                .foregroundStyle(.black.opacity(0.7))
+            
+            ProgressBar(progress: 0.5)
+            
+            Text("Осталось 44 дня") // remaining days
+                .font(Typography.caption)
+                .foregroundStyle(.black.opacity(0.6))
         }
     }
 }

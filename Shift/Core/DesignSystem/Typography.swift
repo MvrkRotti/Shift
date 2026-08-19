@@ -13,4 +13,6 @@ enum Typography {
     static let body = Font.system(size: 17)
 
     static let caption = Font.system(size: 14)
+    
+    static let percent = Font.system(size: 12, weight: .semibold)
 }
