@@ -11,6 +11,13 @@ struct DashboardView: View {
                 TodaySavingsCard()
                 
                 PersonalTargetCard(progress: 0.2)
+                
+                HStack(spacing: Spacing.s) {
+                    AlcoholFreeStreakCard()
+                        .frame(maxWidth: .infinity)
+                    HealthyActionsCard()
+                        .frame(maxWidth: .infinity)
+                }
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)

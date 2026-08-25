@@ -28,6 +28,8 @@
 		8A61BECC300944C80038A472 /* GreetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECB300944C80038A472 /* GreetingHeader.swift */; };
 		8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECD300944E90038A472 /* NotificationButton.swift */; };
 		8A61BED030094D2D0038A472 /* TodaySavingsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */; };
+		8ABE263C303E19EA007F108C /* AlcoholFreeStreakCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE263B303E19EA007F108C /* AlcoholFreeStreakCard.swift */; };
+		8ABE263E303E1AA3007F108C /* HealthyActionsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE263D303E1AA3007F108C /* HealthyActionsCard.swift */; };
 		8AEDC4AB3035B018009ABD15 /* PersonalTargetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */; };
 		8AEDC4B93035B9C1009ABD15 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDC4B83035B9C1009ABD15 /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,8 @@
 		8A61BECB300944C80038A472 /* GreetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHeader.swift; sourceTree = "<group>"; };
 		8A61BECD300944E90038A472 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
 		8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySavingsCard.swift; sourceTree = "<group>"; };
+		8ABE263B303E19EA007F108C /* AlcoholFreeStreakCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholFreeStreakCard.swift; sourceTree = "<group>"; };
+		8ABE263D303E1AA3007F108C /* HealthyActionsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyActionsCard.swift; sourceTree = "<group>"; };
 		8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTargetCard.swift; sourceTree = "<group>"; };
 		8AEDC4B83035B9C1009ABD15 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -266,6 +270,8 @@
 				8A61BECD300944E90038A472 /* NotificationButton.swift */,
 				8A61BECF30094D2D0038A472 /* TodaySavingsCard.swift */,
 				8AEDC4AA3035B018009ABD15 /* PersonalTargetCard.swift */,
+				8ABE263B303E19EA007F108C /* AlcoholFreeStreakCard.swift */,
+				8ABE263D303E1AA3007F108C /* HealthyActionsCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -422,6 +428,7 @@
 			files = (
 				8A61BECE300944E90038A472 /* NotificationButton.swift in Sources */,
 				8A61BE833006B0010038A472 /* Color+Hex.swift in Sources */,
+				8ABE263E303E1AA3007F108C /* HealthyActionsCard.swift in Sources */,
 				8A61BE3F300544670038A472 /* ContentView.swift in Sources */,
 				8AEDC4AB3035B018009ABD15 /* PersonalTargetCard.swift in Sources */,
 				8A61BE5B30054A160038A472 /* Shadows.swift in Sources */,
@@ -436,6 +443,7 @@
 				8A61BE49300545C30038A472 /* DashboardView.swift in Sources */,
 				8A61BE40300544670038A472 /* Item.swift in Sources */,
 				8A61BE57300549A20038A472 /* Spacing.swift in Sources */,
+				8ABE263C303E19EA007F108C /* AlcoholFreeStreakCard.swift in Sources */,
 				8A61BECC300944C80038A472 /* GreetingHeader.swift in Sources */,
 				8A61BE41300544670038A472 /* ShiftApp.swift in Sources */,
 				8A61BE6B30054B820038A472 /* AppCard.swift in Sources */,
