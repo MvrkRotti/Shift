@@ -18,6 +18,8 @@ struct DashboardView: View {
                     HealthyActionsCard()
                         .frame(maxWidth: .infinity)
                 }
+                
+                QuoteCard()
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)

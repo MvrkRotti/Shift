@@ -26,3 +26,4 @@ struct AppCard<Content: View>: View {
             .shadow(color: .black.opacity(0.06), radius: 20, x: 0, y: 8)
     }
 }
+
