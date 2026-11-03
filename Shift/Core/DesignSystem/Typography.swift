@@ -15,4 +15,6 @@ enum Typography {
     static let caption = Font.system(size: 14)
     
     static let percent = Font.system(size: 12, weight: .semibold)
+    
+    static let quickActionTitle = Font.system(size: 10, weight: .regular)
 }

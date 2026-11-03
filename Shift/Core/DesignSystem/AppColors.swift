@@ -32,4 +32,11 @@ enum AppColors {
 
     static let border = Color(hex: "#ECECEC")
 
+    // MARK: Quick action colors
+    
+    static let harmfulHabit = Color(hex: "#EF4444")
+    static let refusedHabit = Color(hex: "#2878D5")
+    static let healthyAction = AppColors.primaryGreen
+    static let savedMoney = Color(hex: "#9149D8")
+    static let dailyNote = Color(hex: "#9149D8")
 }
